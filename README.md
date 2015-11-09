@@ -18,3 +18,8 @@ MIT License
 
 #### TikZ
 - [TikZ | 数理情報第7研究室 - 東京大学](http://www.opt.mist.i.u-tokyo.ac.jp/~tasuku/tikz.html)
+
+### TODO
+
+- [ ] 色設定を `.sty`で読み込めるようにしたい。
+- [ ] [matze/mtheme](https://github.com/matze/mtheme)のようにテーマ化までできたら最高
