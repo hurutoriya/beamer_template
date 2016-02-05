@@ -1,10 +1,8 @@
 \documentclass[12pt,xcolor=dvipsnames,table,dvipdfmx]{beamer}
 
-%% VIEW
-\usetheme{Malmoe}
-\setbeamertemplate{footline}[frame number]
-\setbeamertemplate{navigation symbols}{}
-
+%% View
+\usetheme{Malmoe} % Your favorite theme
+\setbeamertemplate{footline}[frame number} % only page number in footer
 \setbeamertemplate{navigation symbols}{} % remove navigation symbol
 \setbeamertemplate{blocks}[rounded] % delete shadow
 \useinnertheme{circles} % itemize to simple circles
@@ -12,20 +10,19 @@
 \setbeamerfont{frametitle}{size=\Large} % font size frametitle
 \setbeamerfont{section in toc}{series=\mdseries} % not bold tablecontents
 \setbeamerfont{date}{size=\small}  % date font size
-%% FONT
+
+%% Font
 \usefonttheme{professionalfonts} % Math Font
 \renewcommand{\familydefault}{\sfdefault}% font chenge to Sans-serif in English
 \renewcommand{\kanjifamilydefault}{\gtdefault}% font chenge to Sans-serif in Japanese
-
 \setbeamerfont{alerted text}{series=\bfseries} % Alert bold
 \setbeamerfont{structured text}{series=\bfseries} % Sructure bold
 
-%% Numered figure
+%% Figure, Table Title
 \setbeamertemplate{caption}[numbered]
-
-%% figure, Table Title Rename
 \renewcommand{\figurename}{図}
 \renewcommand{\tablename}{表}
+
 % Babel
 \uselanguage{japanese}
 \languagepath{japanese}
@@ -41,11 +38,12 @@
 \deftranslation[to=japanese]{Proof}{証明}
 \def\proofname{証明}
 
+% Package
 \usepackage{bm} % Bold charactor package for math
-\usepackage[footnotesize, bf]{caption}
-\newcommand{\argmin}{\mathop{\rm arg~min}\limits}
+\usepackage[footnotesize, bf]{caption} % footnote available
+\newcommand{\argmin}{\mathop{\rm arg~min}\limits} % argmin available
 
-%Beamer色設定
+%Beamer Color Setting
 %% bg = background, fg = frontground
 %% Persona 3
 \definecolor{Persona3Blue}{RGB}{0,120,187}
